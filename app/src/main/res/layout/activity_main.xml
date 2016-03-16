@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="16dp"
+        android:text="My Nanodegree Apps!"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#F08C35"
+        android:layout_gravity="center"
+        android:onClick="message1"
+        android:text="Spotify Streamer"
+        android:textAllCaps="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center"
+        android:background="#F08C35"
+        android:onClick="message2"
+        android:text="Scores App"
+        android:textAllCaps="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#F08C35"
+        android:layout_gravity="center"
+        android:onClick="message3"
+        android:text="Library App"
+        android:textAllCaps="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#F08C35"
+        android:layout_gravity="center"
+        android:onClick="message4"
+        android:text="Build It Bigger"
+        android:textAllCaps="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#F08C35"
+        android:onClick="message5"
+        android:layout_gravity="center"
+        android:text="Xyz Reader"
+        android:textAllCaps="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#F44336"
+        android:onClick="message6"
+        android:layout_gravity="center"
+        android:text="Capstone :My own App"
+        android:textAllCaps="true" />
+
+
+</LinearLayout>
